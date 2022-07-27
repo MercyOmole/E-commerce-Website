@@ -487,6 +487,11 @@ footer {
         clip-path: none;
     }
 
+    .sliderWrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     .sliderImg {
         width: 90%;
     }
@@ -533,7 +538,7 @@ footer {
         width: 80%;
         padding: 10px;
         top: 350%;
-        bottom: -220%;
+        bottom: -200%;
     }
 
     .productDetails {
