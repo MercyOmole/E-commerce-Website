@@ -18,7 +18,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-} 
+}
 
 .search {
     display: flex;
@@ -176,10 +176,10 @@ nav {
 }
 
 .feature {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .featureIcon {
@@ -252,7 +252,7 @@ label {
 }
 
 .cardIcon {
-    margin-right: 10px;   
+    margin-right: 10px;
 }
 
 .cardInfo {
@@ -315,7 +315,8 @@ label {
     color: gray;
 }
 
-.colors,.sizes {
+.colors,
+.sizes {
     display: flex;
     margin-bottom: 20px;
 }
@@ -343,7 +344,7 @@ label {
 }
 
 .productButton {
-    float: right ;
+    float: right;
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: #000;
@@ -528,6 +529,13 @@ footer {
         width: 80%;
     }
 
+    .payment {
+        width: 80%;
+        padding: 10px;
+        top: 350%;
+        bottom: -220%;
+    }
+
     .productDetails {
         width: 100%;
         padding: 0;
@@ -567,7 +575,7 @@ footer {
 
     .footerLeft {
         padding: 20px;
-        width:90%;
+        width: 90%;
     }
 
     .footerRight {
@@ -583,5 +591,5 @@ footer {
         justify-content: center;
     }
 
-}
 
+}
